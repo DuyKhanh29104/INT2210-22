@@ -1,0 +1,12 @@
+Chứng minh: Đồ thị không chứa chu trình độ dài lẻ là đồ thị hai mầu
+1: Phân loại đỉnh
+
+Bắt đầu từ một đỉnh bất kỳ, ta tô màu đỉnh này là màu 1.
+Các đỉnh kề với đỉnh này được tô màu 2 (khác màu 1).
+Tiếp tục quá trình này: tất cả các đỉnh kề với một đỉnh đã được tô màu sẽ được tô màu khác với màu của đỉnh đó.
+2: Chứng minh không tồn tại cạnh nối hai đỉnh cùng màu
+
+Giả sử có một cạnh nối hai đỉnh cùng màu, tức là hai đỉnh kề nhau trong đồ thị được tô cùng một màu.
+Điều này sẽ tạo thành một chu trình độ dài lẻ, vì khi ta đi từ một đỉnh đến đỉnh kề tiếp theo, mỗi lần di chuyển qua một cạnh, ta thay đổi màu (do các đỉnh kề nhau cùng màu).
+Tuy nhiên, đề bài đã đặt điều kiện rằng đồ thị không chứa chu trình độ dài lẻ, vậy nên giả thiết về sự tồn tại của cạnh nối hai đỉnh cùng màu là không đúng.
+Vậy nên, ta đã chứng minh được rằng nếu một đồ thị không chứa chu trình độ dài lẻ, nó sẽ là một đồ thị hai mầu.

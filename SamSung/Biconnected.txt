@@ -1,0 +1,7 @@
+Một đồ thị biconnected là đồ thị mà mỗi cặp đỉnh có thể được nối bởi ít nhất hai đường đi không giao nhau. Một điểm articulation trong đồ thị là một đỉnh mà khi loại bỏ nó cùng với các cạnh kề, đồ thị sẽ không còn liên thông.
+
+Chọn hai đỉnh s và t trong đồ thị và xét đường đi giữa chúng.
+Do không có điểm articulation trên đường đi đó, khi ta loại bỏ bất kỳ đỉnh nào trên đường đi giữa s và t, đồ thị vẫn liên thông.
+Vì vậy, ta có thể tạo ra ít nhất hai đường đi khác nhau giữa s và t, mà không cần phải loại bỏ bất kỳ điểm articulation nào.
+Điều này chứng minh rằng mọi cặp đỉnh trong đồ thị có thể được nối bằng ít nhất hai đường đi không giao nhau.
+Vì vậy, chúng ta đã chứng minh rằng một đồ thị không có điểm articulation là đồ thị biconnected.
