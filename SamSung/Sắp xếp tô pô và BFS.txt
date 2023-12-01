@@ -1,0 +1,7 @@
+ Thứ tự tô pô chỉ tồn tại trong đồ thị có hướng không chứa chu trình. Thuật toán BFS thông thường không đảm bảo thứ tự tô pô trong trường hợp đồ thị có chu trình.
+
+Các lý do mà thuật toán đề xuất không đảm bảo cho thứ tự tô pô là:
+
+1.Đồ thị có chu trình: BFS không phải lúc nào cũng đảm bảo không đi qua các đỉnh đã được thăm trước đó. Trong trường hợp đồ thị có chu trình, việc duyệt sẽ không bao giờ hoàn thành, vì các đỉnh có thể được thăm nhiều lần thông qua các đường đi khác nhau trong chu trình.
+
+2.Không xác định được thứ tự đúng nếu có nhiều đỉnh cùng cấp: Trong BFS, các đỉnh cùng cấp (cùng khoảng cách từ đỉnh nguồn) có thể được duyệt theo bất kỳ thứ tự nào, dẫn đến việc không có thứ tự tô pô cụ thể cho các đỉnh này.
